@@ -28,6 +28,11 @@ static inline int proc_net_init(void) { return 0; }
 
 extern struct mm_struct *mm_for_maps(struct task_struct *);
 
+static inline void *__PDE_DATA(const struct inode *inode)
+{
+ return PDE(inode)->data;
+}
+
 extern int proc_tid_stat(struct seq_file *m, struct pid_namespace *ns,
 				struct pid *pid, struct task_struct *task);
 extern int proc_tgid_stat(struct seq_file *m, struct pid_namespace *ns,

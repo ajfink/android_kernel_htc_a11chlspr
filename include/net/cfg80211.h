@@ -162,6 +162,7 @@ struct ieee80211_channel {
  *	core code when registering the wiphy.
  * @IEEE80211_RATE_ERP_G: This is an ERP rate in 802.11g mode.
  */
+
 enum ieee80211_rate_flags {
 	IEEE80211_RATE_SHORT_PREAMBLE	= 1<<0,
 	IEEE80211_RATE_MANDATORY_A	= 1<<1,
