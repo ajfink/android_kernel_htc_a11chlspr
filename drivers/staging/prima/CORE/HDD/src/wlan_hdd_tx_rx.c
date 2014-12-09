@@ -63,7 +63,7 @@
 
 #include <wlan_hdd_p2p.h>
 #include <linux/wireless.h>
-#include <net/cfg80211.h>
+#include <net/cfg80211_prima.h>
 #include <net/ieee80211_radiotap.h>
 #include "sapApi.h"
 

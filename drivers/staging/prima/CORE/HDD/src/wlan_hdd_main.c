@@ -102,7 +102,7 @@
 #endif // WLAN_BTAMP_FEATURE
 
 #include <linux/wireless.h>
-#include <net/cfg80211.h>
+#include <net/cfg80211_prima.h>
 #include "wlan_hdd_cfg80211.h"
 #include "wlan_hdd_p2p.h"
 #include <linux/rtnetlink.h>

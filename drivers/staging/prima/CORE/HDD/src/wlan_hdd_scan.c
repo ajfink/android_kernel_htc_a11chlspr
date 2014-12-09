@@ -83,7 +83,7 @@
 #endif
 
 #include <linux/wireless.h>
-#include <net/cfg80211.h>
+#include <net/cfg80211_prima.h>
 
 #define GET_IE_LEN_IN_BSS(lenInBss) ( lenInBss + sizeof(lenInBss) - \
               ((int) OFFSET_OF( tSirBssDescription, ieFields)))

@@ -31,7 +31,7 @@
 
 #include <wlan_hdd_includes.h>
 #include <wlan_hdd_hostapd.h>
-#include <net/cfg80211.h>
+#include <net/cfg80211_prima.h>
 #include <linux/netdevice.h>
 #include <linux/skbuff.h>
 #include <linux/list.h>

@@ -53,7 +53,7 @@
 
 #include <wlan_hdd_includes.h>
 #include <wlan_hdd_hostapd.h>
-#include <net/cfg80211.h>
+#include <net/cfg80211_prima.h>
 #include "sme_Api.h"
 #include "wlan_hdd_p2p.h"
 #include "sapApi.h"

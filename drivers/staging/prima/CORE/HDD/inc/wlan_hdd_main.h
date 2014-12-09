@@ -58,7 +58,7 @@
   
 #include <linux/netdevice.h>
 #include <linux/skbuff.h>
-#include <net/cfg80211.h>
+#include <net/cfg80211_prima.h>
 #include <vos_list.h>
 #include <vos_types.h>
 #include "sirMacProtDef.h"

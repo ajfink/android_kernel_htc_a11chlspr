@@ -103,7 +103,7 @@
 #endif
 
 #include <linux/wireless.h>
-#include <net/cfg80211.h>
+#include <net/cfg80211_prima.h>
 #include "wlan_qct_pal_trace.h"
 #include "wlan_qct_tl.h"
 

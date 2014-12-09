@@ -70,7 +70,7 @@
 #include "wlan_hdd_power.h"
 #include <linux/ieee80211.h>
 #include <linux/wireless.h>
-#include <net/cfg80211.h>
+#include <net/cfg80211_prima.h>
 #include "wlan_hdd_cfg80211.h"
 #include "csrInsideApi.h"
 #include "wlan_hdd_p2p.h"

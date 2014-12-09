@@ -65,7 +65,7 @@
 #include "vos_sched.h"
 #include "wlan_nv_parser.h"
 #include "wlan_hdd_main.h"
-#include <net/cfg80211.h>
+#include <net/cfg80211_prima.h>
 static char crda_alpha2[2] = {0, 0}; /* country code from initial crda req */
 static char run_time_alpha2[2] = {0, 0}; /* country code from none-default country req */
 static v_BOOL_t crda_regulatory_entry_valid = VOS_FALSE;
@@ -1809,10 +1809,11 @@ VOS_STATUS vos_nv_write( VNV_TYPE type, v_VOID_t *inputVoidBuffer,
       if (! VOS_IS_STATUS_SUCCESS(status)) {
           VOS_TRACE(VOS_MODULE_ID_VOSS, VOS_TRACE_LEVEL_ERROR, ("vos_nv_write_to_efs failed!!!\r\n"));
           status = VOS_STATUS_E_FAULT;
-          goto try_perist_and_exit;
+//          goto try_perist_and_exit;
+	goto exit;
       }
 
-try_perist_and_exit:
+// try_perist_and_exit:
 #ifdef WLAN_NV_OTA_UPGRADE
       if(type != VNV_FIELD_IMAGE)
           goto exit;
